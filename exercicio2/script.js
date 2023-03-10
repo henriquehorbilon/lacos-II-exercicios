@@ -1,0 +1,16 @@
+
+
+function calculaTabuada(numerox){
+
+    tabuada = [1,2,3,4,5,6,7,8,9,10]
+   
+    for(let indice in tabuada){
+        indice = Number(indice)
+        calc = numerox * tabuada[indice]
+        console.log(`${numerox} x ${tabuada[indice]} é: ${calc}`)
+    }
+   
+
+}
+const numeroTabuda = Number(prompt(`Digite um número:`))
+calculaTabuada(numeroTabuda)
