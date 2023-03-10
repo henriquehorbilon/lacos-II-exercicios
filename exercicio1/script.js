@@ -5,3 +5,10 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+    for (let temporadas in array){
+        temporadas = Number(temporadas)
+        gols = [array[temporadas]]
+
+        console.log(`Jogador ${temporadas + 1}: ${gols}`)
+    }
